@@ -1,0 +1,8 @@
+version: "3"
+services:
+  ctf:
+    build: .
+    volumes:
+      - $HOME/ctf:/ctf
+    working_dir: /ctf
+    tty: true
